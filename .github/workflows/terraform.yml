@@ -70,7 +70,7 @@ jobs:
       - name: Run Checkov
         uses: bridgecrewio/checkov-action@v12
         with:
-          directory: parrent module
+          directory: environment
      
       - name: Azure Login
         run: |
@@ -111,7 +111,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: parrent module
+        working-directory: environment
 
     steps:
       - name: Checkout code
