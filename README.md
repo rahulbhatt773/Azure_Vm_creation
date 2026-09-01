@@ -6,7 +6,7 @@ This Terraform project automates the creation and management of Azure Virtual Ma
 
 ## Folder Structure
 
-### 📁 child_module/
+### 📁 child_module/ 
 Contains reusable Terraform modules for Azure resources:
 
 - **public_ip/** - Module for creating Azure Public IP addresses
