@@ -67,9 +67,9 @@ jobs:
       # ----------------------------------------------------------
       # 4. CHECKOV - IaC Security & Compliance
       # ----------------------------------------------------------
-      -- name: Run Checkov
-          uses: bridgecrewio/checkov-action@v12
-          continue-on-error: true
+      - name: Run Checkov
+        uses: bridgecrewio/checkov-action@v12
+        continue-on-error: true
         with:
           directory: environment
      
